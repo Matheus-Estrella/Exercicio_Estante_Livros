@@ -1,0 +1,15 @@
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\bin\Debug\net6.0\Exercicio_Estante_Livros.exe
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\bin\Debug\net6.0\Exercicio_Estante_Livros.deps.json
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\bin\Debug\net6.0\Exercicio_Estante_Livros.runtimeconfig.json
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\bin\Debug\net6.0\Exercicio_Estante_Livros.dll
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\bin\Debug\net6.0\Exercicio_Estante_Livros.pdb
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\obj\Debug\net6.0\Exercicio_Estante_Livros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\obj\Debug\net6.0\Exercicio_Estante_Livros.AssemblyInfoInputs.cache
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\obj\Debug\net6.0\Exercicio_Estante_Livros.AssemblyInfo.cs
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\obj\Debug\net6.0\Exercicio_Estante_Livros.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\obj\Debug\net6.0\Exercicio_Estante_Livros.sourcelink.json
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\obj\Debug\net6.0\Exercicio_Estante_Livros.dll
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\obj\Debug\net6.0\refint\Exercicio_Estante_Livros.dll
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\obj\Debug\net6.0\Exercicio_Estante_Livros.pdb
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\obj\Debug\net6.0\Exercicio_Estante_Livros.genruntimeconfig.cache
+C:\Users\Matheus\Exercicios_Estagio\Exercicio_Estante_Livros\Exercicio_Estante_Livros\obj\Debug\net6.0\ref\Exercicio_Estante_Livros.dll
