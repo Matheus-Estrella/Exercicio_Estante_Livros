@@ -47,7 +47,7 @@
                                 {
                                     Console.WriteLine("\nInsira uma opção válida");
                                 }
-                            } while (num <= 0);
+                            }while (num <= 0);
                             Livro[] estante_atualizada = new Livro[estante_livros.Length + num];
                             estante_livros.CopyTo(estante_atualizada,0);
                             estante_livros = estante_atualizada;
@@ -60,7 +60,7 @@
                         }
                         break;
                     case 2:
-                        Print_Estante(estante_livros, num);
+                        Print_Estante(estante_livros);
                         break;
                 }
                 op = 0;
@@ -69,16 +69,16 @@
                 op = int.Parse(Console.ReadLine());
             } while (op == 1);
         }
-        static void Print_Estante(Livro[] estante, int tamanho_estante)
+        static void Print_Estante(Livro[] estante)
         {
-            int inicio = 0, fim = 0, op = 0, n=0;
+            int inicio = 0, fim = 0, op = 0, n = 0;
             do
             {
                 Console.Clear();
                 Console.Write("\nEscolha uma opção de consulta\n1-) Imprimir estante\n2-) Selecionar livro para imprimir\n" +
                     "3-) Selecionar intervalo de livros para imprimir\n:");
                 op = int.Parse(Console.ReadLine());
-                if((op < 1) || (op > 3))
+                if ((op < 1) || (op > 3))
                 {
                     Console.WriteLine("\nInsira uma opção válida");
                 }
@@ -88,16 +88,21 @@
                 case 1:
                     inicio = 0;
                     fim = estante.Length;
+                    for (int i = inicio; i < fim; i++)
+                    {
+                        estante[i].Imprimir_Livro();
+                        Console.ReadKey();
+                    }
                     break;
                 case 3:
                     do
                     {
                         Console.Clear();
                         Console.Write("\nInsira o índice inicial para procura: ");
-                        inicio = int.Parse(Console.ReadLine())-1;
+                        inicio = int.Parse(Console.ReadLine()) - 1;
                         Console.Write("\nInsira o índice final para procura: ");
                         fim = int.Parse(Console.ReadLine());
-                        if(fim > estante.Length)
+                        if (fim > estante.Length)
                         {
                             fim = estante.Length;
                         }
@@ -106,26 +111,32 @@
                             Console.WriteLine("\nInsira uma opção válida");
                         }
                     } while ((inicio < 0) || (fim > estante.Length) || (inicio > fim));
+                    for (int i = inicio; i < fim; i++)
+                    {
+                        estante[i].Imprimir_Livro();
+                        Console.ReadKey();
+                    }
                     break;
                 case 2:
                     do
                     {
                         Console.Clear();
                         Console.Write("\nInsira o índice para procura: ");
-                        inicio = int.Parse(Console.ReadLine())-1;
-                        fim = inicio+1;
-                        if((inicio < 0) || (inicio > tamanho_estante))
+                        inicio = int.Parse(Console.ReadLine()) - 1;
+                        fim = inicio + 1;
+                        if ((inicio < 0) || (inicio > estante.Length))
                         {
                             Console.WriteLine("\nInsira uma opção válida");
                         }
-                    } while ((inicio < 0) || (inicio > tamanho_estante));
+                    } while ((inicio < 0) || (inicio > estante.Length));
+                    for (int i = inicio; i < fim; i++)
+                    {
+                        estante[i].Imprimir_Livro();
+                        Console.ReadKey();
+                    }
                     break;
             }
-            for (int i = inicio; i < fim; i++)
-            {
-                Console.Clear();
-                estante[i].Imprimir_Livro();
-            }
+
         }
     }
 }

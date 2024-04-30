@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exercicio_Estante_Livros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a627961277f8470d777506f25c0a13872966f207")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01b0adf71f571f27cf54a776cb537575614995f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exercicio_Estante_Livros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exercicio_Estante_Livros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
